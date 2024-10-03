@@ -1,0 +1,289 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #333;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 10px;
+    padding: 20px;
+}
+
+.left-content {
+    width: 45%;
+    text-align: left;
+}
+
+.left-content h2 {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.left-content h3 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.left-content p {
+    font-size: 14px;
+    color: grey;
+}
+
+.right-content {
+    width: 45%;
+    text-align: right;
+}
+
+.right-content h1 {
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.outline-text {
+    font-size: 100px;
+    font-weight: bold;
+    color: transparent;
+    -webkit-text-stroke: 3px lightblue;
+}
+
+@media (max-width: 768px) {
+    .button-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-content,
+    .right-content {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .social-logos {
+        justify-content: center;
+    }
+}
+
+.info-block {
+    background-color: #e0f7ff;
+    padding: 20px;
+    text-align: center;
+    margin: 50px auto;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.info-content {
+    margin-bottom: 10px;
+}
+
+.info-content h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: -20px;
+}
+.info-content h1 {
+    font-size: 35px;
+    font-weight: bold;
+color: orange;
+}
+
+
+.info-content p {
+    font-size: 18px;
+    font-weight: normal;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.info-images {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+.photo {
+    width: 40%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    width: 55%;
+}
+
+.logos img {
+    width: calc(25% - 10px);
+    height: auto;
+    border-radius: 5px;
+}
+
+.footer-text {
+    margin-top: 30px;
+    font-size: 14px;
+    color: grey;
+    text-align: left;
+}
+
+
+.popular-courses {
+    background-color: #333;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+
+.popular-courses h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.courses-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.course-card {
+    background-color: #444;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+.course-card ul{
+    text-align: left;
+}
+
+.course-logo {
+    width: 80px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.details-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.details-button:hover {
+    background-color: #555;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-logos {
+    display: flex;
+    gap: 15px;
+}
+
+.social-logo {
+    width: 50px;
+    height: auto;
+    transition: filter 0.3s;
+}
+.social-logo:hover {
+    filter: brightness(4);
+}
+@media (max-width: 768px) {
+   
+}
