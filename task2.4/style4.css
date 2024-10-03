@@ -1,0 +1,52 @@
+div {
+    border: 1px solid black;    
+}
+
+.mainDiv {
+    height:930px;
+    max-width: 900px;    
+    display: flex; 
+}
+
+h2.elementDescription_2_4 {      
+    text-align: center;      
+}
+
+h2.elementDescription_1_3 {      
+    text-align: center;
+    color: white;
+}
+
+.element2 {
+    width: 20%; 
+    background-color: rgb(255, 196, 0); 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-right: 5%;
+}
+
+.container {
+    display: flex; 
+    flex-direction: column; 
+    flex-grow: 1;
+    margin-right: 5%;
+}
+
+.element1, .element3{
+    width: 100%; 
+    background-color: blue; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    height: 15%; 
+}
+
+.element4 {
+    height: 70%; 
+    background-color: white; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+

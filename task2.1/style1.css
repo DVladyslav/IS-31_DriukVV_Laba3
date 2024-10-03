@@ -1,0 +1,55 @@
+table{
+    border-collapse: collapse;
+}
+table, td{
+    border: 2px solid black;
+}
+
+.fixed-table-layout{
+    width:900px;
+    margin: 0 auto;
+}
+
+
+h2.element_description_1_3{    
+    text-align: center;
+    /*float: right;*/
+    color:white;
+    
+}
+h2.element_description_2_4_5{    
+    text-align: center;
+    /*float: right;*/
+    color: black;
+    
+}
+.element_1_3{
+    width: 900px;
+    height: 162px;
+    background-color: blue;
+}
+
+.element2{
+    width: 170px;
+    
+    height: 600px;
+    background-color: rgb(255, 196, 0);
+}
+.sidebar-right {
+    width: 100px;
+    background-color: yellow;
+}
+.element5{
+    margin: 0px;
+    width: 700px;
+    height: 100px;
+    background-color:rgb(255, 196, 0);
+}
+
+.element4{
+    margin: 0px;
+    width: 725px;
+    height: 500px;
+    background-color: white;
+ 
+}
