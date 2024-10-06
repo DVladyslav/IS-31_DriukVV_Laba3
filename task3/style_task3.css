@@ -1,9 +1,10 @@
+/* Основний стиль тіла документа */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     margin: 0;
 }
-
+/* Контейнер для кнопок, стиль кнопок, стиль кнопок при навдення */
 .button-container {
     display: flex;
     gap: 10px;
@@ -25,6 +26,7 @@ button:hover {
     background-color: #333;
 }
 
+/* Стиль для випадаючого меню, його кнопки та контенту */
 .dropdown {
     position: relative;
     display: inline-block;
@@ -66,14 +68,14 @@ button:hover {
 .dropdown:hover .dropbtn {
     background-color: #333;
 }
-
+/* Стиль для основного контенту */
 .content {
     display: flex;
     justify-content: space-between;
     margin: 50px 10px;
     padding: 20px;
 }
-
+/* Стиль для лівого блоку контенту */
 .left-content {
     width: 45%;
     text-align: left;
@@ -93,7 +95,7 @@ button:hover {
     font-size: 14px;
     color: grey;
 }
-
+/* Стиль для правого блоку контенту */
 .right-content {
     width: 45%;
     text-align: right;
@@ -111,7 +113,7 @@ button:hover {
     color: transparent;
     -webkit-text-stroke: 3px lightblue;
 }
-
+/* Медіа-запит для адаптивного дизайну */
 @media (max-width: 768px) {
     .button-container {
         flex-direction: column;
@@ -138,7 +140,7 @@ button:hover {
         justify-content: center;
     }
 }
-
+/* Стиль для інформаційного блоку, його тексту та зображень */
 .info-block {
     background-color: #e0f7ff;
     padding: 20px;
@@ -177,7 +179,7 @@ color: orange;
     align-items: flex-start;
     margin-top: 20px;
 }
-
+/* Стиль для фото та логотипів */
 .photo {
     width: 40%;
     height: auto;
@@ -205,7 +207,7 @@ color: orange;
     text-align: left;
 }
 
-
+/* Стиль для блоку популярних курсів, карток курсів(та їх елементів) */
 .popular-courses {
     background-color: #333;
     color: white;
@@ -257,7 +259,7 @@ color: orange;
 .details-button:hover {
     background-color: #555;
 }
-
+/* Стиль для футера, тексту, логотипів соцмереж */
 .footer {
     background-color: black;
     color: white;
